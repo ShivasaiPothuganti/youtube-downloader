@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "bin-version-check-cli": "^3.0.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "ffmpeg": "^0.0.4",
+    "find-remove": "^4.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-downloader-helper": "^1.0.19",
+    "nodemon": "^2.0.15",
+    "youtube-dl-exec": "^2.0.2",
+    "ytdl-core": "^4.10.0"
+  }
+}

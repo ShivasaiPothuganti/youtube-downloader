@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+}
+a:hover{
+  cursor: pointer;
+}
