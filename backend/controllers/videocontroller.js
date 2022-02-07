@@ -72,7 +72,8 @@ router.post("/downloadVideoOnly",async (req,res)=>{
     const fileName = fs.createWriteStream(`./${video_id}.mp4`);
     ytdl(url,{
         filter:(format)=>{
-            return(format.itag === itag)
+            console.log(format.itag);
+            return(format.itag == itag)
         }
     }).pipe(fileName);
 
